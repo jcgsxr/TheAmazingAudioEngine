@@ -530,6 +530,8 @@ typedef void (*AEAudioControllerMainThreadMessageHandler)(AEAudioController *aud
  */
 - (void)stop;
 
+- (void)teardown;
+
 ///@}
 #pragma mark - Channel and channel group management
 /** @name Channel and channel group management */
